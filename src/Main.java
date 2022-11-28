@@ -6,7 +6,11 @@ public class Main {
         int additionalDonation = 15000;
         int countMonth=1;
         int savings=0;
+        double percent=0.12;
         while (savings<goal) {
+            if (countMonth%12==0) {
+                savings += savings*percent;
+            }
             savings = savings+additionalDonation;
             countMonth++;
         }
@@ -31,6 +35,8 @@ public class Main {
             population=population*populationIncrease/1000;
             System.out.println("Год "+year+ ", численность населения составляет " + population);
         }
+        //Задание 4
+        System.out.println("Задание 4");
 
     }
 }
