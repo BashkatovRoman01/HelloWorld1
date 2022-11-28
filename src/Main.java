@@ -52,10 +52,19 @@ public class Main {
         int savings2 = 15000;
         double percent2 = 0.07;
         for (; savings2 < goal2; countMonth2++) {
-            savings2 += savings2 * percent1;
+            savings2 += savings2 * percent2;
             if (countMonth2 % 6 == 0) {
                 System.out.println("За месяц " + countMonth2 + " сумма накоплений составит " + savings2);
             }
         }
+        //Задание 6
+        System.out.println("Задание 6");
+        int firstMonth = 0;
+        int savings3 = 15000;
+        double percent3 = 0.07;
+        for (; firstMonth <= 9 * 12; firstMonth++) {
+            savings3 += savings3 * percent3;
+            System.out.println("За месяц " + firstMonth + " сумма накоплений составит " + savings3);
+        }
     }
-}
+    }
