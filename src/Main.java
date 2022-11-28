@@ -66,5 +66,19 @@ public class Main {
             savings3 += savings3 * percent3;
             System.out.println("За месяц " + firstMonth + " сумма накоплений составит " + savings3);
         }
+        //Задание 7
+        System.out.println("Задание 7");
+        int firstYear = 0;
+        int year=firstYear;
+        int thisYear = 2022;
+        int startObservationYear = thisYear - 200;
+        int finishObservationYear = thisYear + 100;
+        int period = 79;
+        while (year < finishObservationYear) {
+            if (year > startObservationYear) {
+                System.out.println(year);
+            }
+            year += period;
+        }
     }
-    }
+}
