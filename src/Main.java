@@ -10,6 +10,7 @@ public class Main {
             savings = savings+additionalDonation;
             countMonth++;
         }
+
         System.out.println("Месяц " + countMonth+ ", сумма накоплений равна " + savings + " рублей");
     }
 }
