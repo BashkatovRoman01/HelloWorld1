@@ -27,7 +27,7 @@ public class Main {
         int birthRateBy1000=17;
         int deathRateBy1000=8;
         int populationIncrease=birthRateBy1000-deathRateBy1000;
-        for (int year=2022; year<=10; year++) {
+        for (int year=1; year<=10; year++) {
             population=population*populationIncrease/1000;
             System.out.println("Год "+year+ ", численность населения составляет " + population);
         }
